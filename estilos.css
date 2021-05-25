@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 20px;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+h2{
+    font:bold 14px sans-serif;
+}
+header,section,article,nav,aside,footer,hgroup{
+    display: block;
+}
+body{
+    text-align: center;
+}
+.agrupar{
+    width: 960px;
+    margin: 15px auto;
+    border: 1px solid #ff7f50;
+}
+.cabecera{
+    background: #ff7f50;
+    padding: 20px;
+    border: 1px solid #0a3d62;
+   
+}
+.cabecera h1{
+    text-align: left;
+}
+
+
+.menu{
+    background: #ffa502;
+    padding: 5px 15px;
+    text-align: left;
+}
+.menu li{
+    list-style: none;
+    padding: 5px 5px;
+    font: bold 14px verdana;
+    display: inline-block;
+    
+}
+.seccion{
+    margin: 20px;
+    width: 600px;
+    float: left;
+
+
+}
+.columna{
+    width: 300px;
+    float: left;
+    margin: 20px 0;
+    
+}
+.columna blockquote{
+    border:1px solid black;
+padding: 40px;
+margin-bottom: 20px;
+background: #ffa502;
+height: 200px;
+
+
+}
+
+
+.pie{
+    clear: both;
+    padding:20px;
+    background: #ffa502;
+    color:#ffffff;
+
+}
+article{
+    background:#ffa502 ;
+    border: 1px solid;
+    padding: 20px;
+    margin-bottom:15px;
+}
+article footer{
+    margin-top: 20px;
+    text-align: right;
+}
+time{
+    color: #fff;
+}
+p{
+    margin: 20px;
+    text-align: justify;
+}
+#cuerpotabla{
+    background:#eccc68 ;
+    border: 1px solid;
+    }
+
+ #cuerpotabla2{
+        background:#eccc68 ;
+        border: 1px solid;
+        }
+        .elevator-button { 
+            display: block; 
+            padding: 10px 20px;
+            color: white;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: 'Rubik One', sans-serif;
+            text-decoration: none;
+            font-size:2vw;
+            transition: all .5s;
+            background-color: #3498db;
+        
+           
+        }
+.caja{
+    margin: 25px 0px 10px 6px;
+    height: 100px;  
+    overflow: auto;
+}
+
+.caja1{
+   color: #fff;
+}
+.th{
+    border-top: 4px solid black;
+                border-bottom: 4px solid black;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                color: #fff;
+}
+a:hover { 
+    background-color: rgb(255, 214, 255);
+}  
+a:active {
+    background-color: rgb(255, 214, 255);
+} 
+a:focus {
+    background-color: rgb(255, 214, 255);
+} 

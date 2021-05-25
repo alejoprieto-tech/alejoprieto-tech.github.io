@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <title>Mis Museos</title>
+    <meta name="description" content="Este es mi proyecto de pagina web . Grado décimo" />
+    <meta name="author" content="Alejandro Prieto"/>
+    <meta name="keywords" content="trabajo, proyecto"/>
+    <link rel="stylesheet" href="estilos.css">
+</head>    
+<body>
+   <div class="agrupar">
+    <header class="cabecera">
+        <h1>Museos Impresionantes</h1>
+    </header>
+    <nav class="menu"> 
+        <ul>
+            <li>Principal</li>
+            <li>|</li>
+            <li>Ayuda</li>
+            <li>|</li>
+            <li>Contacto</li>
+            <li>|</li>
+            <li>elevator.js</li>
+            <li>|</li>
+            <li>overflow</li>
+              <li>|</li>
+            <li>hover-active</li>
+        </ul>
+    </nav>
+   <section class="seccion">
+        <article>
+     <hgroup>
+        <h1>Museos del Mundo</h1>
+        <h2>Museos de Los Angeles (USA)</h2>
+        <h3>Museo de Historia Natural</h3>
+    </hgroup>
+        <time datetime="25/04/21">Editado el 08/05/21</time><br>
+        <img style="border: 14px ridge; color: white; "src="https://www.viajarlosangeles.com/img/museos-los-angeles.jpg" width="300">
+        <p class="caja">Este es el museo de historia natural más grande de California y es de relevante importancia, ya que tiene una gran colección de animales de todo el mundo. De todos modos, lo que atrae centenares de turistas todos los años son sus colecciones de esqueletos de dinosaurios que son realmente impresionantes, como por ejemplo el Tiranosaurio Rex. Además, también podrás ver piezas arqueológicas precolombinas que no tienen desperdicio. Dependiendo de la estación del año podrás visitar el pabellón de las mariposas o el de las arañas, esta visita no está incluida en el precio.</p>
+    <footer>
+        comentarios(29)
+    </footer>
+    <address>
+        <a href="#abajo">Enlace Interno</a>
+    </address>
+    </article>
+    <article>
+     <hgroup>
+        <h1>Museos del Mundo</h1>
+        <h2>Museos de Los Angeles</h2>
+        <h3>California African Museum</h3>
+    </hgroup>
+        <time datetime="25/04/21">Editado el 08/05/21</time><br>
+        <img style="border: 14px ridge; color: white;"src="https://www.viajarlosangeles.com/img/museos-que-visitar-los-angeles.jpg" width="300">
+        <p class="caja caja1">Este museo de arte africano-americano es de lo más interesante, ya que el visitante podrá ver las obras pictóricas y, algunas instalaciones, que artistas afroamericanos han realizado desde los inicios de su historia en América hasta los tiempos actuales. Las obras que se presentan en este museo de arte de Los Ángeles permite ver cómo, los afroamericanos, aún conservan en sus raíces sus tradiciones y sus cosmovisiones, las cuales quedan plasmadas en su arte. Además, todas las obras están muy bien contextualizadas, hecho que permite entender mejor la influencia afro en California.</p>
+    <footer>Comentarios(29)</footer>
+    <div class="elevator-button">Click para ir arriba(elevator.js)</div>
+   <script src="https://tholman.com/elevator.js/elevator.js"></script>
+      <script>
+    // Elevator script included on the page, already.
+    
+    window.onload = function() {
+      var elevator = new Elevator({
+        element: document.querySelector('.elevator-button'),
+        mainAudio: '/src/audio.mp3',
+        endAudio: '/src/end-audio.mp3'
+      });
+    }
+    </script>
+    </article>
+   </section> 
+  
+   <aside class="columna">
+   <blockquote cite="https://nhm.org/site/">
+       Tabla 1
+       <table>
+        <thead>
+            <tr >
+                <th class="th">Museo de Historia Natural</th>
+                                
+            </tr>
+        </thead>
+        
+        
+        <tbody id="cuerpotabla">
+<tr >
+<td><strong>Localización: Blvd. Exposition 900</strong>
+</td>
+
+</tr>
+
+<tr>
+     <td><strong>Precio (aprox):15$, .</strong></td>
+    
+</tr>
+      
+<tr>
+     <td><strong>Horarios: Todos los días de 09.30 a 17.00</strong>
+     </td>
+</tr> 
+       
+<tr>
+        <td><strong><a href= "https://nhm.org/site/" target="_blank">Ir al Museo</a></td></strong>
+        </td>
+</tr>
+
+         
+        </tbody>
+    </table>
+   </blockquote>
+
+   <blockquote cite="https://caamuseum.org/">
+    Tabla 2
+    <table>
+     <thead>
+         <tr >
+             <th class="th">Caamuseum</th>
+                             
+         </tr>
+     </thead>
+     
+     
+     <tbody id="cuerpotabla2">
+<tr >
+<td><strong>Localización: 600 State Drive, en Exposition Park</strong>
+</td>
+
+</tr>
+
+<tr>
+  <td><strong>Precio: Gratuito.</strong></td>
+ 
+</tr>
+   
+<tr>
+  <td><strong>Horarios: De martes a domingo de 10.00h a 17.00 horas.</strong>
+  </td>
+</tr> 
+    
+<tr>
+     <td><strong><a href= "https://caamuseum.org/" target="_blank">Ir al Museo</a></td></strong>
+     </td>
+</tr>
+
+      
+     </tbody>
+ </table>
+    </blockquote>
+   </aside>
+    <footer class="pie">
+    <a name="abajo">Alejandro Prieto Derechos Reservados 2021 </a>    
+   </footer>
+   </div>
+
+    
+</body>
+</html>
